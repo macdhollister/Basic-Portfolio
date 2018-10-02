@@ -1,4 +1,20 @@
-img {
+#profile_picture {
     width: 200px;
     height: 200px;
 }
+
+header {
+    width: 960px;
+    margin: auto;
+}
+
+#main_section {
+    width: 960px;
+    margin: auto;
+}
+
+
+h2 {
+    color: #4aaaa5;
+}
+
