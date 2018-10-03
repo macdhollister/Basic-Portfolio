@@ -1,6 +1,10 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
-    /* background-image: url("https://www.toptal.com/designers/subtlepatterns/patterns/bananas.png"); */
-    background-image: url('/assets/images/bananas.png');
+    background-image: url("../images/bananas.png");
 }
 
 header {
@@ -22,6 +26,10 @@ header {
 
 #header_links {
     float: right;
+    height: 21px;
+    text-align: center;
+    font-size: 21px;
+    padding: 28px 0;
 }
 
 a {
@@ -32,6 +40,9 @@ a {
 #profile_picture {
     width: 200px;
     height: 200px;
+    display: inline;
+    float: left;
+    padding-right: 20px;
 }
 
 header {
@@ -40,13 +51,26 @@ header {
 }
 
 #main_section {
-    width: 960px;
+    width: 920px;
     margin: 20px auto;
+    padding: 20px;
     background-color: white;
+    overflow: hidden;
 }
 
+#main_horizontal {
+    margin: 10px auto;
+}
 
 h2 {
     color: #4aaaa5;
 }
 
+#main_section p {
+    font-size: 30px;
+}
+
+.portfolio_image {
+    width: 200px;
+    height: 200px;
+}
