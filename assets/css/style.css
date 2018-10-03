@@ -1,3 +1,15 @@
+#my_name {
+    color: #fff;
+    background-color: #4aaaa5;
+    padding: 20px;
+    display: inline-block;
+}
+
+#header_links {
+    float: right;
+    color: #4aaaa5;
+}
+
 #profile_picture {
     width: 200px;
     height: 200px;
