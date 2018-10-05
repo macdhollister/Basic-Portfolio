@@ -6,6 +6,7 @@
 
 body {
     background-image: url("../images/bananas.png");
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
 header {
@@ -22,6 +23,7 @@ footer {
 #header_container {
     width: 100%;
     background-color: white;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
 }
 
 #footer_container {
@@ -36,7 +38,7 @@ footer {
 #my_name {
     color: #fff;
     background-color: #4aaaa5;
-    padding: 20px;
+    padding: 21px;
     display: inline-block;
 }
 
@@ -62,7 +64,7 @@ a {
 
 #bio_text {
     font-size: 20px;
-    line-height: 30px;
+    line-height: 1.5;
 }
 
 header {
